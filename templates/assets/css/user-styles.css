@@ -1,0 +1,87 @@
+
+.skills_frontend, .skills_backend, .skills_workflow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+
+.circle {
+    position: relative;
+    margin-right: 50px;
+
+}
+
+.circles-wrp {
+    position: relative;
+}
+
+.circles-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card__post-img-block {
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 0 0 5px 5px;
+    margin-bottom: 30px;
+}
+
+.card-portfolio__img-block {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.card__post-img-block img {
+    width: 100%;
+}
+
+.checkbox--deletePostImg {
+    display: none;
+}
+
+.checkbox--deleteWorkImg {
+    display: none;
+}
+
+.button--no-pad-top {
+    padding-top: 0;
+}
+
+.button--del-right {
+    position: absolute;
+    right: 20px;
+}
+
+.button--del-post-card {
+    position: absolute;
+    right: 135px;
+    bottom: 10px;
+}
+
+.button--del-work {
+    position: absolute;
+    right: -110px;
+    bottom: 65px;
+}
+.header-admin__general {
+    display: flex;
+}
+
+.techs ul li {
+    margin-bottom: 10px;
+}
